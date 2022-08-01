@@ -1,0 +1,321 @@
+*
+{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+@font-face 
+{
+	src:url("fonts/Chewy.ttf");
+	font-family:"mojFont";
+}
+body
+{
+	font-family:Arial;
+	color:#252525;
+}
+ul
+{
+	list-style-type:none;
+}
+a
+{
+	text-decoration:none;
+	color:#252525;
+}
+.region
+{	
+	width:100%;
+	text-align:center;
+	padding:20px 0px;
+}
+.region img
+{
+	width:400px;
+	height:150px;
+}
+
+.region ul li {
+	display: inline;
+	padding:0px 20px;
+}
+.region ul li a {
+	color: #252525;
+	display: inline-block;
+	font-size: 18px;
+	font-weight:900;
+	text-transform: uppercase;
+}
+.region ul li a:hover, .region ul li.aktivan a, #navigacija ul li a:hover, #navigacija ul li.aktivan a {
+	color: #0ba39c;
+}
+#slika
+{
+	background:url("../images/cover.jpg") no-repeat;
+	background-size: cover;
+	height:566px;
+	position:relative;
+}
+.cistac
+{
+	clear:both;
+}
+#tekst
+{
+	float:right;
+	width:490px;
+	position:apsolute;
+	top:20%;
+}
+#tekst h1 {
+	background: #fff;
+	color: #252525;
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	padding:16px;
+	margin: 7px 0px;
+	text-transform: uppercase;
+}
+#tekst span {
+	background: #252525;
+	color: #fff;
+	display: inline-block;
+	font-size: 20px;
+	margin: 5px 0px;
+	padding: 18px;
+}
+#tekst span.st {
+	background: #0ba39c;
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	margin: 5px 0px;
+	padding: 25px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.region h2, .centar h1
+{
+	background:#252525;
+	color:#fff;
+	padding:10px;
+	display:inline-block;
+	font-size:24px;
+	text-transform: uppercase;
+	margin:10px 0px;
+	letter-spacing:2px;
+}
+#program
+{
+	width:1280px;
+	margin:20px auto;
+}
+#program li {
+	display: block;
+	float: left;
+	width: 300px;
+	margin:10px;
+}
+#program li a img {
+	width: 300px;
+	height:300px;
+	border: 2px solid #1a1a1a;
+	display: block;
+	opacity: .7;
+	transition: 0.5s ease-in-out;
+}
+#program li a:hover img {
+	opacity: 1;
+}
+#program li a span {
+	display: block;
+	padding: 33px 0 0;
+}
+#futer
+{
+	width:100%;
+	background:#252525;
+	padding:40px 0px;
+	text-align:center;
+	color:#fff;
+	font-weight:bold;
+}
+#futer img
+{
+	margin-top:20px;
+	width:100px;
+	height:100px;
+}
+/* ********* Stranica Plan rada ***************** */
+.centar
+{
+	width:1280px;
+	margin:0px auto;
+}
+.sadrzaj
+{
+	width:1000px;
+	height:300px;
+	border:1px solid #252525;
+	margin:15px auto;
+}
+.slicica
+{
+	border-right:1px solid #252525;
+	float:left;
+}
+.slicica img
+{
+	width:294px;
+	height:294px;
+}
+.opis
+{
+	float:right;
+	width:695px;
+	padding:20px 0px;
+}
+.opis h2
+{
+	text-transform:uppercase;
+	background:none;
+	color:#252525;
+	letter-spacing:0px;
+	font-weight:800;
+}
+.opis p
+{
+	font-weight:bold;
+	padding:20px;
+	margin:10px 0px;
+}
+.opis a
+{
+	background:#0ba39c;
+	color:#fff;
+	display:inline-block;
+	padding:20px;
+	text-align:center;
+	text-transform:uppercase;
+}
+/*********** stranica Student *************/
+img.profil
+{
+	width:563px;
+	height:353px;
+	display:block;
+	margin:20px auto;
+}
+#biografija
+{
+	width:800px;
+	margin:20px auto;
+	padding:30px;
+}
+#biografija p
+{
+	line-height:25px;
+	margin-bottom:30px;
+}
+/***************************/
+#navigacija ul
+{
+	background:#252525;
+	padding:10px;
+}
+#navigacija ul li a
+{
+	color:#fff;
+}
+.centar ol
+{
+	width:800px;
+	margin:30px auto;
+}
+
+.centar ol li
+{
+	text-align:left;
+	padding-bottom:10px;
+	font-size:18px;
+}
+/*************************/
+#ispis
+{
+	border:1px solid #0ba39c;
+	margin:20px auto;
+	width:800px;
+	padding:10px 0px;
+	text-align:left;
+	display:none;
+}
+.centar ul
+{
+	list-style-type:square !important;
+}
+.centar ul li
+{
+	display:block;
+}
+#forma
+{
+	margin:20px auto;
+	border:1px solid #252525;
+	width:800px;
+	padding:10px 0px;
+	text-align:left;
+}
+#forma table
+{
+	margin:10px auto;
+}
+#forma table td
+{
+	padding:5px 0px;
+	text-align:left;
+}
+input[type="text"]
+{
+	width:220px;
+	height:30px;
+}
+select
+{
+	height:30px;
+}
+#taster
+{
+	padding:5px;
+	background:#0ba39c;
+	border:none;
+	color:#252525;
+	width:100%;
+	height:30px;
+	font-weight:bold;
+}
+#knjige {
+	margin-bottom: 30px;
+}
+#knjige table{
+	margin:0px auto;
+}
+
+#btnPretrazi{
+	padding: 7px;
+	background-color: #252525;
+	color: #fff;
+	border: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+#studenti{
+	width: 300px;
+	margin: 0px auto;
+}
+#studenti li {
+	border-bottom: 1px solid #252525;
+	padding: 10px 0px;
+}
